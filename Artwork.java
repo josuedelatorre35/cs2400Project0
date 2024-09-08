@@ -33,6 +33,11 @@ public class Artwork {
     // printInfo method
     public void printInfo() {
         artist.printInfo();
+        if (yearCreated == -1){
+            System.out.println("Title: " + title + ", Year Created Unknown");
+        }
+        else{
         System.out.println("Title: " + title + ", " + yearCreated);
+        }
     }
 }
