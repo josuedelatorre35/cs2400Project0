@@ -6,9 +6,10 @@ public class Main {
 
         //Output message before taking input
         System.out.println("Please enter information for the following fields:");
-        System.out.println("Artist Name, Birth Year, Death Year, Artwork Title, Artwork Year Published");
+        System.out.println("(Artist Name, Birth Year, Death Year, Artwork Title, Artwork Year Created)\n");
         System.out.println("After entering information for one field, hit \"Enter\" to go to next field.");
-        System.out.println("For Birth/Death years unknown, type \"-1\". ");
+        System.out.println("For Birth Year or Artwork Year Created unknown, type \"-1\". ");
+        System.out.println("If artist is still alive, type \"-1\" for Death Year.");
 
         // Read input
         String artistName = scnr.nextLine();
