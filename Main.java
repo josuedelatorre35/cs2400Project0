@@ -11,6 +11,7 @@ public class Main {
         scnr.nextLine(); // Consume the newline character
         String artworkTitle = scnr.nextLine();
         int yearCreated = scnr.nextInt();
+        scnr.close(); //close after done with scanner (prevent memory leak)
 
         // Create Artist and Artwork objects
         Artist artist = new Artist(artistName, birthYear, deathYear);
