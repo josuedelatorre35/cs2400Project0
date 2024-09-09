@@ -1,4 +1,4 @@
-[![Open in Visual Studio Code]](https://github.com/josuedelatorre35/cs2400Project0.git)
+[[Open project in Visual Studio Code]](https://github.com/josuedelatorre35/cs2400Project0.git)
 
 # Project 0
 
