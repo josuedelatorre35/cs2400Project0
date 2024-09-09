@@ -25,6 +25,7 @@ public class Main {
         Artwork artwork = new Artwork(artworkTitle, yearCreated, artist);
 
         // Display the information
+        System.out.println(); //print empty line for spacing
         artwork.printInfo();
     }
 }

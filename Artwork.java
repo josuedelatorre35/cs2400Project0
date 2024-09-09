@@ -7,7 +7,7 @@ public class Artwork {
     public Artwork() {
         this.title = "unknown";
         this.yearCreated = -1;
-        this.artist = new Artist();
+        this.artist = new Artist(); //new Artist object
     }
 
     // Parameterized constructor
@@ -26,17 +26,18 @@ public class Artwork {
         return yearCreated;
     }
 
-    public Artist getArtist() {
-        return artist;
+    public Artist getArtist() { //get artist from Artist class
+        return artist; 
     }
 
     // printInfo method
     public void printInfo() {
-        artist.printInfo();
-        if (yearCreated == -1){
+        artist.printInfo(); // calls printInfo from Artist
+
+        if (yearCreated == -1){ //year created unknown
             System.out.println("Title: " + title + ", Year Created Unknown");
         }
-        else{
+        else{ 
         System.out.println("Title: " + title + ", " + yearCreated);
         }
     }

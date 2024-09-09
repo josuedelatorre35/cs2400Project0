@@ -34,13 +34,13 @@ public class Artist {
     public void printInfo() {
         System.out.print("Artist: " + name);
 
-        if (birthYear >= 0 && deathYear >= 0) {
+        if (birthYear >= 0 && deathYear >= 0) { //birth & death years known
             System.out.println(" (" + birthYear + " to " + deathYear + ")");
         } 
-        else if (birthYear >= 0 && deathYear < 0) {
+        else if (birthYear >= 0 && deathYear < 0) { //artist still alive
             System.out.println(" (" + birthYear + " to present)");
         } 
-        else {
+        else { //birth & death years unknown
             System.out.println(" (unknown)");
         }
     }
